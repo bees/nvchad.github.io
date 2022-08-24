@@ -21,6 +21,8 @@
     "serve": "docusaurus serve"
   },
   "dependencies": {
+    "@algolia/autocomplete-theme-classic": "^1.7.1",
+    "@cmfcmf/docusaurus-search-local": "^0.11.0",
     "@docusaurus/core": "2.0.0-beta.18",
     "@docusaurus/preset-classic": "2.0.0-beta.18",
     "@mdx-js/react": "^1.6.22",

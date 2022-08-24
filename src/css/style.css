@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 
 :root {
   font-family: "Inter", sans-serif;
@@ -83,17 +83,22 @@ h4 {
   background-repeat: no-repeat;
 }
 
+@media (min-width: 996px) {
+  .navbar__items--right > :last-child {
+    padding-left: 1.3rem;
+  }
+}
 
 /* ===== Scrollbar ==== */
 
 * {
-  scrollbar-width: .5rem;
+  scrollbar-width: 0.5rem;
   scrollbar-color: blue pink;
 }
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: .5rem;
+  width: 0.5rem;
 }
 
 *::-webkit-scrollbar-track {
@@ -107,5 +112,5 @@ h4 {
 
 /* misc */
 img {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }

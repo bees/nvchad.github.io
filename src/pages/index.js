@@ -1,3 +1,4 @@
+import '@algolia/autocomplete-theme-classic';
 import "../css/variables.css";
 import "../css/style.css";
 import "../css/components/home.css";

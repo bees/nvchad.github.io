@@ -25,19 +25,19 @@ module.exports = {
           to: "quickstart/install",
           label: "Docs",
           position: "left",
-          sidebarId: 'config'
+          sidebarId: "config",
         },
         {
           to: "Features",
           label: "Features",
           position: "left",
-          sidebarId: 'config'
+          sidebarId: "config",
         },
         {
           to: "themes/themelist",
           label: "Themes",
           position: "left",
-          sidebarId: 'themesPage'
+          sidebarId: "themesPage",
         },
         {
           href: "https://github.com/NvChad/NvChad",
@@ -75,4 +75,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: [[require.resolve("@cmfcmf/docusaurus-search-local"), { style: 'none'}]],
 };

@@ -6,6 +6,11 @@
   --shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   --navbar_shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --navbar_shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --aa-text-color-rgb: 30, 34, 42 !important;
+  --aa-primary-color-rgb: 30, 34, 42 !important;
+  --aa-text-color-alpha: 1.0 !important;
+  --aa-muted-color-rgb: 30, 34, 42 !important;
+  --aa-muted-color-alpha: 1.0 !important;
 
   --github: url("/icons/github.svg");
   --telegram: url("/icons/telegram.svg");
@@ -29,6 +34,12 @@
   --prismBg: #1e252c;
   --shadow: none;
   --navbar_shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --aa-text-color-rgb: 255,255,255 !important;
+  --aa-text-color-alpha: 1.0 !important;
+  --aa-muted-color-rgb: 255,255,255 !important;
+  --aa-muted-color-alpha: 1.0 !important;
+  --aa-primary-color-rgb: 255,255,255 !important;
+  --aa-background-color-rgb: 25, 29, 37 !important;
 
   --github: url("/icons/github-inverted.svg");
   --telegram: url("/icons/telegram-inverted.svg");
